@@ -1,0 +1,90 @@
+/* div {
+    border: 2px solid blue;
+} */
+
+/* css som rör hela sidan */
+
+button {
+    background-color: purple;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+/* Äg din bank css */
+
+.img-text-button-container {
+    display: flex;
+}
+
+.img-text-button-container div {
+    margin: 20px;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+#ag-din-bank {
+    background-color: aqua;
+}
+
+#ag-din-bank h2 {
+    text-align: center;
+    padding: 50px;
+}
+
+.content-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.card-container {
+    display: flex;
+    background-color: brown;
+}
+
+.two-card-container {
+    display: flex;
+    background-color: cadetblue;
+}
+
+.card {
+    /* width: 100px;
+    height: 100px; */
+    background-color: beige;
+}
+
+.icon {
+    width: 18px;
+}
+
+.more-information-container {
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .img-text-button-container {
+        display: block;
+    }
+
+    .card-container {
+        display: block;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+
+    .two-card-container {
+        display: block;
+    }
+
+    .card {
+        display: flex;
+    }
+  }
